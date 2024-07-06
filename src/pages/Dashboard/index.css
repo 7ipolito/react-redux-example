@@ -34,7 +34,19 @@
 }
 
 .card {
-  padding: 2em;
+  padding: 0.5em;
+}
+
+.task {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.task-done {
+  background-color: green;
+  color: white;
 }
 
 .read-the-docs {
